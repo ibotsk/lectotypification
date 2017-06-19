@@ -1,0 +1,50 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 4, 2016, 11:01:29 AM
+    Author     : Matus
+*/
+
+.record { padding-left: 0; padding-right: 0; }
+
+.icon-herb { color: #0a0; font-size: 2em; }
+.icon-illustr { color: #e6b800; font-size: 2em; }
+.glyphicon-pencil { color: #28a4c9; }
+
+.edit { display: inline-block; width: 30px; margin-bottom: 10px; }
+
+.full .list-group-item { overflow: hidden; }
+.list-group-item h4 { display: inline-block; }
+
+#reference-authors { width: 60%; }
+#reference-authors .move { padding-top: 0; padding-bottom: 0; }
+
+#footer { width: 100%; background-color: #f5f5f5; margin: 30px 0 0 0;}
+#footer p { margin: 20px 0; }
+#reference-authors .glyphicon-remove { color: #ff6666; }
+#modal-person input { margin-top: 1px; margin-bottom: 1px; }
+#los-authors-string { height: 14px; }
+
+a.comment { color: #000; }
+a.comment:hover { text-decoration: none; }
+div.comment:hover { border: 1px solid #66afe9; }
+div.comment .panel-heading, div.comment .panel-body { padding-top: 5px; padding-bottom: 5px; }
+
+.remote { color: #337ab7; }
+.local { color: #c77900; }
+
+.ui-autocomplete {
+    max-width: 100%;
+    max-height: 300px;
+    overflow-y: auto;
+    /* prevent horizontal scrollbar */
+    overflow-x: hidden;
+    z-index: 5000;
+  }
+  
+  .ui-datepicker-header select {
+      color: #000;
+  }
